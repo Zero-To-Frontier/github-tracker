@@ -1,0 +1,45 @@
+응. **지금 기획에는 OSSInsight, agents-radar, OpenDigger를 먼저 참고하는 게 좋아.** 공식 저장소와 문서를 확인해보니 각각 **대시보드 구조 / AI 정보 수집 / 성장·활동 지표**를 맡겨서 볼 수 있어.
+
+아래 우선순위는 네 Trend Tracker 구상에 얼마나 도움이 되는지를 기준으로 잡았어.
+
+| 우선순위 | 오픈소스 | 참고할 부분 | 우리 프로젝트에 적용할 때 |
+|---|---|---|---|
+| **1** | **[OSSInsight](https://github.com/pingcap/ossinsight)** | 저장소별 분석, 프로젝트 비교, Trending, 분야별 컬렉션과 과거 순위 | **전체 서비스 구조의 가장 가까운 참고 대상.** 주요 프로젝트 상세·생태계별 비교에 적합. 전체 데이터 인프라는 초기 구현에 큰 편 |
+| **2** | **[agents-radar](https://github.com/duanyytop/agents-radar)** | GitHub·HN·논문·공식 발표 수집, AI 분류와 요약, Actions 정기 실행 | **수집 파이프라인과 News / Digest 참고.** 추적 대상을 설정 파일로 관리하는 방식도 유용 |
+| **3** | **[OpenDigger](https://github.com/X-lab2017/open-digger)** | OpenRank, 활동량, 기여자, PR·이슈 관련 지표 | **Trend Score 설계 참고.** 공개 데이터는 월 단위 중심이라 Today / Week 집계는 별도 설계 필요 |
+| **4** | **[Star History](https://github.com/star-history/star-history)** | 여러 저장소의 성장 곡선 비교, 날짜·프로젝트 경과 시간 기준 차트 | **프로젝트 상세와 비교 화면 참고.** 현재 코드에는 주간 집계·저장 파이프라인도 있음 |
+| **5** | **[ecosyste.ms Repos](https://github.com/ecosyste-ms/repos)** | 저장소 메타데이터 통합, 활동에 따른 재수집, 릴리스 정보 동기화 | **프로젝트 정보와 지속적인 수집 구조 참고.** AI 카테고리와 트렌드 판정은 직접 추가해야 함 |
+| **6** | **[GitTrends](https://github.com/ClickHouse/gitTrends)** | 이슈·PR·댓글 속 키워드의 일·주·월별 언급량 비교, 관련 저장소 탐색 | **생태계 흐름을 해석하는 기능 참고.** “MCP나 Agent Memory 이야기가 어디서 늘었나” 같은 탐색에 적합. ClickHouse 기술 데모 성격 |
+| **7** | **[GH Archive](https://github.com/igrigorik/gharchive.org)** | GitHub 공개 이벤트 보관과 분석용 데이터 제공 | **과거 활동 이력을 보충할 데이터 기반.** 저장소의 모든 과거 상태를 정확하게 복원하는 자료로 보기는 어려움 |
+
+실제로 코드를 읽을 때는 아래 부분부터 보면 효율적이야.
+
+- **OSSInsight → [컬렉션 정의](https://github.com/pingcap/ossinsight/tree/main/etl/meta/collections):** 프로젝트들을 분야별로 묶는 구조. `AI Agent / Coding Agent / RAG / Local AI` 분류의 출발점으로 참고하기 좋음.
+- **agents-radar → [trending.ts](https://github.com/duanyytop/agents-radar/blob/master/src/trending.ts):** GitHub Trending과 AI 토픽 검색을 함께 사용하는 방식. 다만 여기의 ‘최근 7일 검색’은 **최근에 업데이트된 저장소를 누적 스타순으로 찾는 방식**이어서, 네가 원하는 주간 성장률 계산은 추가해야 해.
+- **Star History → [star-fetch.ts](https://github.com/star-history/star-history/blob/main/gh/star-fetch.ts):** **주차 선택 → BigQuery 집계 → SQLite 저장 → 주간 순위 내보내기** 흐름이 있어. 주간 스냅샷 구상과 연결해서 읽을 가치가 있어.
+
+데이터 수집에서는 최신 변경 하나를 반영해야 해. GitHub는 **2026년 7월부터 스타를 누른 사용자 목록 조회를 관리자·협업자로 제한한다고 안내**하고 있어. 따라서 과거 스타 이력을 언제든 API로 가져올 수 있다고 전제하기보다는, **현재 총스타 수를 일별로 저장하고 주간·월간 순증가를 계산하는 방식**을 기본으로 잡는 게 좋겠어. [GitHub 공식 문서](https://docs.github.com/en/rest/activity/starring#new-access-restrictions)
+
+
+응. **네 목적이면 기존 오픈소스를 베이스로 가져와서, 필요한 기능을 붙이는 게 합리적이야.** 매일 직접 쓰면서 최신 흐름을 따라가려는 도구라면, 기존 구현을 활용해서 빨리 써보는 쪽에 가치가 있어.
+
+지금 범위에서는 **`agents-radar`를 출발점으로 검토하는 걸 추천해.** GitHub·AI 소식 수집과 요약이 있고, 최근 arXiv 논문을 가져오는 코드도 이미 있어서 연결점이 많아. [저장소](https://github.com/duanyytop/agents-radar), [논문 수집 코드](https://github.com/duanyytop/agents-radar/blob/master/src/arxiv.ts)
+
+네가 붙일 기능을 정리하면 이 정도야.
+
+| 영역 | 가져와서 활용할 부분 | 직접 붙일 부분 |
+|---|---|---|
+| **현재 뜨는 프로젝트** | GitHub Trending·토픽 검색·프로젝트 정보 수집 | 일별 스냅샷, 지난주 대비 변화, 관심 프로젝트 추적 |
+| **AI 생태계** | 프로젝트별 소식과 요약 | Agent / Memory / RAG / Local AI 등 분류, 프로젝트 간 관계 |
+| **최신 논문** | arXiv 수집 | 관심 분야 필터, 선정 이유, 관련 구현 저장소 연결 |
+| **인기·기반 논문** | 논문 메타데이터 수집 기능 추가 | 분야별 대표 논문 목록, 최신 논문과의 연결, 읽음·저장 관리 |
+
+특히 **최신 논문과 기반 논문은 선정 기준을 나누는 게 좋아.** 최신 논문은 최근 관심도와 내 관심 분야를 보고, 기반 논문은 누적 영향력과 개념의 중요성을 보는 식으로. 처음에는 기반 논문 목록을 직접 골라 넣어도 충분해.
+
+그리고 네가 추가할 만한 핵심은 **자료 사이의 연결**이야. 예를 들면:
+
+> 이번 주 급상승한 프로젝트 → 사용한 최신 논문 → 이해에 필요한 기반 논문 → 지난주와 달라진 점
+
+이 흐름으로 보여주면 네가 원하는 “AI 트렌드를 따라가는 도구”에 훨씬 가까워져. 개인화, 중복 제거, 이미 읽은 내용 제외도 실제 사용할 때 도움이 크고.
+
+코드 재사용도 가능해. `agents-radar`는 MIT 라이선스라 기존 저작권·라이선스 고지를 유지하면서 수정·배포할 수 있어. **출처를 남기고 네 기능을 추가하는 방식으로 진행하면 돼.** 수집한 논문·외부 데이터의 이용 조건은 코드 라이선스와 별개야. [라이선스 원문](https://github.com/duanyytop/agents-radar/blob/master/LICENSE)
