@@ -1,0 +1,136 @@
+import type { EcosystemEdge, EcosystemNode } from "../lib/ecosystem-types";
+
+// Model families, not a performance ranking. Support and licenses are version-specific.
+const verifiedAt = "2026-09-14";
+
+export const nodes: EcosystemNode[] = [
+  {
+    id: "qwen", name: "Alibaba · Qwen", category: "open-models", mark: "Qw",
+    mapLabel: "다국어·도구 활용 모델",
+    tagline: "직접 실행·조정할 수 있는 다국어·추론·도구 활용 모델 계열",
+    description: "Alibaba의 Qwen 팀이 공개하는 모델 계열입니다. 대화와 추론, 코딩, 이미지 이해 등에 사용할 모델 가중치를 배포하며 크기와 입력 형식은 모델마다 다릅니다. 이 항목은 공개 모델 계열을 중심으로 설명합니다. 별도 Qwen 웹 서비스와 클라우드 API의 전체 코드가 공개되었다는 뜻은 아닙니다.",
+    problem: "자체 환경에서 사용할 다국어 모델을 선택하고 업무에 맞게 조정하거나 도구를 사용하는 앱에 연결할 때 활용합니다.",
+    role: "에이전트와 검색 앱이 호출하는 모델 계층입니다. Qwen3.8 등 공개 모델은 지원되는 추론 엔진으로 API 서버를 구성할 수 있으며, 실제 도구 실행은 연결한 에이전트가 담당합니다.",
+    useCases: ["자체 서버에서 다국어 문서 질의응답 제공", "공개 모델을 업무 데이터로 조정하거나 코딩 에이전트의 모델로 연결"],
+    features: ["크기·입력 형식이 다른 공개 모델 선택지", "지원 모델의 추론 모드와 도구 호출", "vLLM·SGLang 등 자체 배포 및 미세 조정 경로"],
+    openness: "open-weight",
+    license: "모델별 확인 필요 · Qwen3 및 Qwen3.8-27B 가중치는 Apache-2.0. 다른 계열·변형은 해당 모델 라이선스, 호스팅 API는 서비스 이용 조건 적용.",
+    licenseUrl: "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE",
+    website: "https://qwen.ai", docs: "https://qwen.readthedocs.io/en/latest/",
+    github: "https://github.com/QwenLM/Qwen3.8",
+    sources: [
+      { title: "Qwen3.8 공식 공개 모델 저장소와 실행 안내", url: "https://github.com/QwenLM/Qwen3.8" },
+      { title: "Qwen 모델 실행·학습 공식 문서", url: "https://qwen.readthedocs.io/en/latest/" },
+      { title: "Qwen3.8-27B 모델 가중치 라이선스", url: "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE" },
+      { title: "Qwen3 공개 모델과 별도 라이선스 범위", url: "https://github.com/QwenLM/Qwen3" },
+    ], verifiedAt,
+  },
+  {
+    id: "deepseek", name: "DeepSeek", category: "open-models", mark: "Ds",
+    mapLabel: "추론·코딩 공개 모델",
+    tagline: "추론과 코딩에 활용하는 공개 모델 계열 및 모델 API 제공자",
+    description: "DeepSeek는 언어 모델의 가중치와 기술 자료를 공개하고 별도 API 서비스도 제공합니다. R1 계열의 추론 모델과 공개된 V4 모델 등은 자체 인프라에서 사용할 수 있습니다. 모델마다 구조와 실행 요구 사항이 다르며, R1의 작은 증류 모델 중에는 Qwen이나 Llama를 기반으로 학습한 변형도 있습니다.",
+    problem: "추론·코딩 기능을 앱에 넣으면서 관리형 API와 자체 배포 중 적합한 운영 방식을 선택할 때 활용합니다.",
+    role: "판단과 응답을 생성하는 모델 계층입니다. 아래 GitHub는 R1 모델의 공식 공개 자료이며, V4 가중치와 실행 자료는 출처의 공식 Hugging Face 저장소에서 확인할 수 있습니다.",
+    useCases: ["수학·코드 문제를 다루는 추론 도우미 구성", "지원되는 공개 모델을 자체 서버에서 제공하거나 공식 API로 연결"],
+    features: ["추론·코딩용 공개 가중치와 기술 자료", "R1의 Qwen·Llama 기반 증류 모델", "자체 실행 경로와 별도 호스팅 API"],
+    openness: "open-weight",
+    license: "모델별 조건 상이 · R1 및 V4-Pro 공개 가중치·코드는 MIT. R1-Distill은 원본 Qwen·Llama 조건도 확인. 최초 V3 가중치는 별도 DeepSeek Model License, API 서비스 조건은 별도.",
+    licenseUrl: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/LICENSE",
+    website: "https://www.deepseek.com", docs: "https://api-docs.deepseek.com/",
+    github: "https://github.com/deepseek-ai/DeepSeek-R1",
+    sources: [
+      { title: "DeepSeek V4 공식 모델 카드와 실행 자료", url: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" },
+      { title: "V4-Pro 모델 가중치·코드의 MIT 라이선스", url: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/LICENSE" },
+      { title: "R1 및 기반 모델별 증류·라이선스 안내", url: "https://github.com/deepseek-ai/DeepSeek-R1" },
+      { title: "최초 V3 가중치의 별도 모델 라이선스", url: "https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL" },
+      { title: "DeepSeek 공식 API 문서", url: "https://api-docs.deepseek.com/" },
+    ], verifiedAt,
+  },
+  {
+    id: "llama", name: "Meta · Llama", category: "open-models", mark: "Ll",
+    mapLabel: "앱 구축용 공개 모델",
+    tagline: "내려받아 앱과 파생 모델을 만드는 Meta의 공개 가중치 모델 계열",
+    description: "Meta가 배포하는 Llama는 개발자와 연구자가 자체 환경에서 생성형 AI를 구축할 수 있는 모델 계열입니다. 텍스트 모델과 이미지 입력을 받는 변형 등이 있으며 세대별 구성과 사용 조건이 다릅니다. 공식 모델 카드, 가중치, 실행 예제를 제공하고 여러 실행 도구와 클라우드 환경에서 활용됩니다.",
+    problem: "모델 가중치를 직접 관리하며 내부 앱을 운영하거나 목적에 맞는 파생 모델을 만들고 싶을 때 활용합니다.",
+    role: "AI 앱의 기반 모델 계층입니다. 실행 도구와 모델을 구별해야 하며, LlamaIndex나 llama.cpp처럼 이름에 Llama가 들어간 다른 프로젝트가 모두 Meta 제품인 것은 아닙니다.",
+    useCases: ["지원되는 Llama 모델로 내부 문서 도우미 운영", "모델별 조건을 확인해 미세 조정·증류 실험 수행"],
+    features: ["공개 가중치·모델 카드·실행 예제", "세대별 텍스트 및 이미지 입력 모델", "Hugging Face 배포와 여러 추론 엔진 지원"],
+    openness: "open-weight",
+    license: "세대별 Llama Community License 및 Acceptable Use Policy 적용. Apache·MIT 모델이 아니며 사용·배포 조건이 있습니다. 아래 원문은 Llama 4 기준, 다른 세대는 해당 라이선스 확인.",
+    licenseUrl: "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+    website: "https://www.llama.com", docs: "https://github.com/meta-llama/llama-models#readme",
+    github: "https://github.com/meta-llama/llama-models",
+    sources: [
+      { title: "Meta 공식 Llama 모델 목록·다운로드·세대별 조건", url: "https://github.com/meta-llama/llama-models" },
+      { title: "Llama 4 Community License 원문", url: "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE" },
+      { title: "Meta의 Llama 4 Scout 공식 모델 카드", url: "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct" },
+    ], verifiedAt,
+  },
+  {
+    id: "mistral", name: "Mistral AI", category: "open-models", mark: "Mi",
+    mapLabel: "공개 모델·모델 API",
+    tagline: "공개 가중치 모델과 업무별 모델 API를 함께 제공하는 모델 개발사",
+    description: "Mistral AI는 범용 언어·이미지 이해 모델과 코딩, 음성, 문서 처리 등 목적별 모델을 개발합니다. 일부는 가중치를 공개해 직접 배포할 수 있고, 일부는 관리형 API로 제공합니다. 이 지도에서는 공개 모델 계열을 중심으로 배치하며 모든 Mistral 제품이 같은 방식으로 공개되는 것은 아닙니다.",
+    problem: "모델을 직접 운영할지 API로 사용할지 선택하면서 문서·코드·음성 등 업무의 입력에 맞는 기능을 구성할 때 활용합니다.",
+    role: "앱과 에이전트가 호출하는 모델 제공 계층입니다. 공개 모델은 지원되는 추론 엔진으로 실행할 수 있습니다. 아래 GitHub는 현행 공식 Python API SDK이며 모델 가중치나 전체 서비스 서버 코드를 뜻하지 않습니다.",
+    useCases: ["공개 모델을 자체 서버에 배포해 대화·문서 이해 기능 제공", "Mistral API의 코드·음성·문서 처리 모델로 업무 앱 구성"],
+    features: ["범용·멀티모달 및 업무별 모델 선택지", "공개 모델의 자체 배포와 호스팅 API", "공식 Python·TypeScript SDK"],
+    openness: "open-weight",
+    license: "모델별 상이 · Mistral Small 4·Large 3 등은 Apache-2.0, 일부는 Modified MIT·연구/비상업 등 별도 조건. API는 서비스 약관, 공개 Python SDK는 Apache-2.0 적용.",
+    licenseUrl: "https://help.mistral.ai/en/articles/347393-under-which-license-are-mistral-s-open-models-available",
+    website: "https://mistral.ai", docs: "https://docs.mistral.ai/models",
+    github: "https://github.com/mistralai/client-python",
+    sources: [
+      { title: "Mistral 공식 모델 목록과 모델별 공개·라이선스 범위", url: "https://docs.mistral.ai/models" },
+      { title: "공개 모델의 Apache-2.0·Modified MIT 조건 안내", url: "https://help.mistral.ai/en/articles/347393-under-which-license-are-mistral-s-open-models-available" },
+      { title: "Modified MIT 모델 라이선스 원문 예시", url: "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512/blob/main/LICENSE" },
+      { title: "기존 모델별 MNPL·연구 라이선스 안내", url: "https://github.com/mistralai/mistral-inference" },
+      { title: "현행 공식 SDK 안내", url: "https://docs.mistral.ai/resources/sdks" },
+      { title: "공개 Python SDK 라이선스", url: "https://github.com/mistralai/client-python/blob/main/LICENSE" },
+    ], verifiedAt,
+  },
+];
+
+export const edges: EcosystemEdge[] = [
+  {
+    id: "e-ollama-qwen", from: "ollama", to: "qwen", label: "모델 실행",
+    description: "Qwen의 공식 Ollama 가이드는 지원되는 Qwen 모델을 내려받아 실행하고 로컬 API로 사용하는 방법을 제공합니다. Ollama 태그와 원본 모델명이 다를 수 있으며 모든 Qwen 변형의 지원을 뜻하지 않습니다.",
+    source: { title: "Qwen 공식 Ollama 실행 안내", url: "https://qwen.readthedocs.io/en/latest/run_locally/ollama.html" }, verifiedAt,
+  },
+  {
+    id: "e-vllm-qwen", from: "vllm", to: "qwen", label: "모델 서빙",
+    description: "Qwen3.8 공식 저장소는 vLLM으로 Qwen3.8-27B를 불러와 추론 API를 제공하는 예제를 공개합니다. 모델과 엔진 버전·하드웨어에 맞는 설정이 필요한 선택적 배포 경로입니다.",
+    source: { title: "Qwen3.8 공식 vLLM 배포 예제", url: "https://github.com/QwenLM/Qwen3.8#deployment" }, verifiedAt,
+  },
+  {
+    id: "e-sglang-deepseek", from: "sglang", to: "deepseek", label: "모델 서빙",
+    description: "DeepSeek R1 공식 저장소는 SGLang으로 R1-Distill-Qwen-32B를 제공하는 실행 예제를 안내합니다. 이 선은 해당 증류 모델의 지원 사례이며 모든 DeepSeek 모델의 같은 실행 조건을 보장하지 않습니다.",
+    source: { title: "DeepSeek R1-Distill의 SGLang 실행 예제", url: "https://github.com/deepseek-ai/DeepSeek-R1#6-how-to-run-locally" }, verifiedAt,
+  },
+  {
+    id: "e-deepseek-qwen", from: "deepseek", to: "qwen", label: "기반 모델",
+    description: "R1-Distill-Qwen 변형은 Qwen2.5 모델을 기반으로 DeepSeek R1에서 만든 데이터로 미세 조정했습니다. 특정 증류 모델의 계보를 뜻하며 DeepSeek의 R1·V4 전체가 Qwen에 의존한다는 의미는 아닙니다.",
+    source: { title: "R1-Distill-Qwen의 기반 모델과 라이선스", url: "https://github.com/deepseek-ai/DeepSeek-R1#7-license" }, verifiedAt,
+  },
+  {
+    id: "e-deepseek-llama", from: "deepseek", to: "llama", label: "기반 모델",
+    description: "R1-Distill-Llama-8B와 70B는 각각 Llama 3.1 및 3.3 모델을 기반으로 학습한 변형입니다. 원본 Llama 사용 조건도 확인해야 하며, 이는 두 증류 모델의 계보 관계입니다.",
+    source: { title: "R1-Distill-Llama의 기반 모델과 라이선스", url: "https://github.com/deepseek-ai/DeepSeek-R1#7-license" }, verifiedAt,
+  },
+  {
+    id: "e-llama-huggingface", from: "llama", to: "huggingface", label: "가중치 배포",
+    description: "Meta는 공식 meta-llama 계정으로 Hugging Face에 Llama 가중치와 모델 카드를 배포합니다. 모델별 이용 조건 동의와 접근 승인이 필요할 수 있는 배포 경로이며 모든 Hub 모델이 Llama 기반이라는 뜻은 아닙니다.",
+    source: { title: "Meta의 Hugging Face 모델 배포·다운로드 안내", url: "https://github.com/meta-llama/llama-models#access-to-hugging-face" }, verifiedAt,
+  },
+  {
+    id: "e-vllm-llama", from: "vllm", to: "llama", label: "모델 서빙",
+    description: "vLLM 공식 레시피는 Llama 4 Scout를 지원 하드웨어에 배포하는 설정을 제공합니다. Llama 모델 접근 권한과 해당 모델·정밀도에 맞는 메모리가 필요하며 vLLM으로 운영할 수 있는 한 가지 경로입니다.",
+    source: { title: "vLLM 공식 Llama 4 Scout 배포 레시피", url: "https://github.com/vllm-project/recipes/blob/main/Llama/Llama4-Scout.md" }, verifiedAt,
+  },
+  {
+    id: "e-vllm-mistral", from: "vllm", to: "mistral", label: "모델 서빙",
+    description: "Mistral의 공식 자체 배포 문서는 vLLM으로 지원되는 Mistral 모델을 실행해 API 서버로 제공하는 방법을 안내합니다. 가중치가 공개된 해당 모델에 적용되며 Mistral의 모든 관리형 API 기능을 제공하는 관계는 아닙니다.",
+    source: { title: "Mistral 공식 vLLM 자체 배포 안내", url: "https://docs.mistral.ai/inference/deployment/local-deployment/vllm" }, verifiedAt,
+  },
+];
