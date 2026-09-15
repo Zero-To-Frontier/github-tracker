@@ -201,3 +201,40 @@
   .footnote { padding: 0 2px; }
 }
 @media (prefers-reduced-motion: reduce) { .node { transition: none; } }
+
+.mapStage { transform-origin: 50% 35%; }
+.sceneSurface { overflow: clip; }
+.sceneSurface .sceneNavigation { position: sticky; top: 78px; z-index: 10; backdrop-filter: blur(14px); }
+.sceneNavigation { display: flex; align-items: center; gap: 17px; min-height: 61px; padding: 12px 18px; border-bottom: 1px solid #293443; background: #111a25e8; }
+.backButton { display: flex; align-items: center; justify-content: center; gap: 7px; color: #cbd8e5; padding: 8px 11px; border: 1px solid #344454; border-radius: 6px; background: #1a2735; font-size: 12px; white-space: nowrap; transition: border-color .2s, background .2s; }
+.backButton:hover { border-color: #a0c9b7; background: #233644; }
+.backButton:disabled { opacity: .5; cursor: default; }
+.sceneNavigation nav { min-width: 0; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; font-size: 11px; line-height: 1.6; }
+.sceneNavigation nav > span { display: flex; align-items: center; gap: 5px; color: #64798f; }
+.sceneNavigation nav button { color: #9aafc5; background: transparent; padding: 5px 2px; font-size: inherit; }
+.sceneNavigation nav button:hover { color: #e3edf7; }
+.sceneNavigation nav strong { color: #d5e1ee; font-weight: 500; overflow-wrap: anywhere; }
+.depthIndicator { margin-left: auto; padding-left: 14px; border-left: 1px solid #304052; display: flex; align-items: center; gap: 7px; color: #d1ddea; font-size: 14px; font-variant-numeric: tabular-nums; }
+.depthIndicator small { font-size: 8px; letter-spacing: 1px; color: #8298ae; }
+.diveCtaWrap { padding: 0 20px 19px; }
+.diveCta { display: flex; align-items: center; gap: 12px; width: 100%; padding: 15px 14px; color: #edc4d4; text-align: left; border: 1px solid #795364; border-radius: 8px; background: linear-gradient(115deg, #382937, #222431); transition: border-color .2s, box-shadow .2s, transform .2s; }
+.diveCta:hover { border-color: #f29ebc; box-shadow: 0 0 22px #f29ebc12; transform: translateY(-1px); }
+.diveCta > span:nth-child(2) { flex: 1; }
+.diveCta strong { display: block; font-size: 14px; font-weight: 600; }
+.diveCta small { display: block; color: #bea9bb; font-size: 11px; line-height: 1.6; margin-top: 5px; }
+.diveCtaIcon { display: grid; place-items: center; width: 36px; height: 38px; border: 1px solid #725366; border-radius: 9px; background: #3a2a3b; color: #f29ebc; }
+.diveHint { display: block; font-size: 10px; color: #94a8bd; margin-top: 10px; text-align: center; line-height: 1.7; }
+.guideDive { margin: 0 22px 23px; padding: 14px; border: 1px solid #4e414f; border-radius: 8px; background: linear-gradient(135deg,#272333,#172330); }
+.guideDive > span { display: flex; align-items: center; gap: 6px; color: #caa0b9; font-size: 9px; letter-spacing: 1.3px; }
+.guideDive button { display: flex; align-items: center; gap: 10px; justify-content: space-between; background: transparent; width: 100%; text-align: left; padding: 12px 0 0; color: #f29ebc; }
+.guideDive strong { display: block; font-size: 16px; color: #e4d8e7; font-weight: 600; }
+.guideDive small { display: block; font-size: 11px; color: #b3aabe; margin-top: 6px; line-height: 1.7; }
+.guideDive button:hover strong { color: #f5b5ce; }
+.node { touch-action: manipulation; }
+.node > .drillIndicator { color: #f29ebc; filter: drop-shadow(0 0 4px #f29ebc50); }
+.travelCard { position: fixed; z-index: 80; pointer-events: none; border: 1px solid var(--area-color); border-radius: 11px; background: linear-gradient(140deg,color-mix(in srgb,var(--area-color) 13%,#172331),#162231); box-shadow: 0 0 0 5px color-mix(in srgb,var(--area-color) 6%,transparent),0 14px 55px #050a14aa; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; align-content: center; gap: 8px; padding: 12px; overflow: hidden; will-change: left,top,width,height; }
+.travelCard strong { color: #f2f5fa; font-size: 15px; font-weight: 600; line-height: 1.4; }
+.travelCard small { width: 100%; text-align: center; color: #c5d3e1; font-size: 11px; }
+@media(max-width:700px) { .sceneNavigation { padding: 10px 12px; gap: 10px; flex-wrap: wrap; } .backButton { min-height: 38px; } .sceneNavigation nav { flex: 1; font-size: 10px; } .depthIndicator { display: none; } .diveCtaWrap { padding: 0 24px 20px; } }
+@media(max-width:540px) { .sceneSurface .sceneNavigation { top: 102px; } }
+@media(prefers-reduced-motion:reduce) { .diveCta, .backButton { transition: none; } .travelCard { display: none; } }
