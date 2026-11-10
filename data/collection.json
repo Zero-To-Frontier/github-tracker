@@ -1,6 +1,6 @@
 {
-  "collectedAt": "2026-11-09T06:47:51.923Z",
-  "attemptedAt": "2026-11-09T06:47:42.955Z",
+  "collectedAt": "2026-11-10T07:27:38.712Z",
+  "attemptedAt": "2026-11-10T07:27:28.513Z",
   "projects": {
     "langgraph": {
       "repo": "langchain-ai/langgraph",
@@ -289,6 +289,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:43.266Z",
           "stars": 44677
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:28.901Z",
+          "stars": 44726
         }
       ],
       "history": [
@@ -515,10 +520,10 @@
         },
         {
           "week": 1782000000,
-          "total": 603,
+          "total": 604,
           "days": [
             81,
-            84,
+            85,
             117,
             86,
             106,
@@ -554,13 +559,13 @@
         },
         {
           "week": 1783814400,
-          "total": 517,
+          "total": 516,
           "days": [
             59,
             114,
             86,
             71,
-            81,
+            80,
             57,
             49
           ]
@@ -593,9 +598,9 @@
         },
         {
           "week": 1785628800,
-          "total": 627,
+          "total": 626,
           "days": [
-            79,
+            78,
             96,
             108,
             90,
@@ -762,9 +767,9 @@
         },
         {
           "week": 1793491200,
-          "total": 421,
+          "total": 420,
           "days": [
-            63,
+            62,
             65,
             72,
             58,
@@ -775,10 +780,10 @@
         },
         {
           "week": 1794096000,
-          "total": 43,
+          "total": 93,
           "days": [
-            43,
-            0,
+            45,
+            48,
             0,
             0,
             0,
@@ -788,15 +793,15 @@
         }
       ],
       "repoId": 676672661,
-      "stars": 44677,
-      "forks": 7697,
+      "stars": 44726,
+      "forks": 7708,
       "language": "Python",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/langchain-ai/langgraph",
       "website": "https://docs.langchain.com/oss/python/langgraph/",
-      "collectedAt": "2026-11-09T06:47:43.266Z",
-      "historyCollectedAt": "2026-11-09T06:47:43.386Z"
+      "collectedAt": "2026-11-10T07:27:28.901Z",
+      "historyCollectedAt": "2026-11-10T07:27:29.098Z"
     },
     "dify": {
       "repo": "langgenius/dify",
@@ -1085,6 +1090,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:43.877Z",
           "stars": 160718
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:29.685Z",
+          "stars": 160804
         }
       ],
       "history": [
@@ -1285,12 +1295,12 @@
         },
         {
           "week": 1780790400,
-          "total": 997,
+          "total": 996,
           "days": [
             175,
             162,
             156,
-            163,
+            162,
             134,
             105,
             102
@@ -1324,9 +1334,9 @@
         },
         {
           "week": 1782604800,
-          "total": 959,
+          "total": 960,
           "days": [
-            137,
+            138,
             144,
             141,
             148,
@@ -1428,12 +1438,12 @@
         },
         {
           "week": 1787443200,
-          "total": 684,
+          "total": 683,
           "days": [
             87,
             121,
             105,
-            118,
+            117,
             99,
             78,
             76
@@ -1493,11 +1503,11 @@
         },
         {
           "week": 1790467200,
-          "total": 553,
+          "total": 552,
           "days": [
             85,
             100,
-            100,
+            99,
             81,
             78,
             53,
@@ -1532,9 +1542,9 @@
         },
         {
           "week": 1792281600,
-          "total": 811,
+          "total": 810,
           "days": [
-            113,
+            112,
             145,
             130,
             120,
@@ -1545,11 +1555,11 @@
         },
         {
           "week": 1792886400,
-          "total": 737,
+          "total": 738,
           "days": [
             105,
             105,
-            133,
+            134,
             114,
             104,
             94,
@@ -1571,10 +1581,10 @@
         },
         {
           "week": 1794096000,
-          "total": 85,
+          "total": 178,
           "days": [
-            85,
-            0,
+            92,
+            86,
             0,
             0,
             0,
@@ -1584,15 +1594,15 @@
         }
       ],
       "repoId": 626805178,
-      "stars": 160718,
-      "forks": 25425,
+      "stars": 160804,
+      "forks": 25435,
       "language": "Python",
       "license": "NOASSERTION",
       "archived": false,
       "url": "https://github.com/langgenius/dify",
       "website": "https://dify.ai",
-      "collectedAt": "2026-11-09T06:47:43.877Z",
-      "historyCollectedAt": "2026-11-09T06:47:44.009Z"
+      "collectedAt": "2026-11-10T07:27:29.685Z",
+      "historyCollectedAt": "2026-11-10T07:27:29.838Z"
     },
     "n8n": {
       "repo": "n8n-io/n8n",
@@ -1881,6 +1891,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:44.399Z",
           "stars": 209878
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:30.338Z",
+          "stars": 209971
         }
       ],
       "history": [
@@ -2003,7 +2018,7 @@
         },
         {
           "week": 1777161600,
-          "total": 1057,
+          "total": 1058,
           "days": [
             149,
             184,
@@ -2011,7 +2026,7 @@
             174,
             156,
             139,
-            105
+            106
           ]
         },
         {
@@ -2224,13 +2239,13 @@
         },
         {
           "week": 1787443200,
-          "total": 983,
+          "total": 982,
           "days": [
             262,
             159,
             132,
             118,
-            118,
+            117,
             100,
             94
           ]
@@ -2328,10 +2343,10 @@
         },
         {
           "week": 1792281600,
-          "total": 813,
+          "total": 814,
           "days": [
             129,
-            141,
+            142,
             112,
             117,
             108,
@@ -2354,11 +2369,11 @@
         },
         {
           "week": 1793491200,
-          "total": 747,
+          "total": 744,
           "days": [
-            122,
+            120,
             121,
-            127,
+            126,
             107,
             108,
             81,
@@ -2367,10 +2382,10 @@
         },
         {
           "week": 1794096000,
-          "total": 96,
+          "total": 212,
           "days": [
-            96,
-            0,
+            102,
+            110,
             0,
             0,
             0,
@@ -2380,15 +2395,15 @@
         }
       ],
       "repoId": 193215554,
-      "stars": 209878,
-      "forks": 61413,
+      "stars": 209971,
+      "forks": 61427,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "archived": false,
       "url": "https://github.com/n8n-io/n8n",
       "website": "https://n8n.io",
-      "collectedAt": "2026-11-09T06:47:44.399Z",
-      "historyCollectedAt": "2026-11-09T06:47:44.531Z"
+      "collectedAt": "2026-11-10T07:27:30.338Z",
+      "historyCollectedAt": "2026-11-10T07:27:30.523Z"
     },
     "codex": {
       "repo": "openai/codex",
@@ -2677,6 +2692,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:44.940Z",
           "stars": 134005
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:30.963Z",
+          "stars": 134587
         }
       ],
       "history": [
@@ -2799,11 +2819,11 @@
         },
         {
           "week": 1777161600,
-          "total": 1712,
+          "total": 1711,
           "days": [
             232,
             229,
-            320,
+            319,
             287,
             237,
             216,
@@ -2916,13 +2936,13 @@
         },
         {
           "week": 1782604800,
-          "total": 1467,
+          "total": 1465,
           "days": [
             181,
             241,
             240,
-            229,
-            232,
+            228,
+            231,
             197,
             147
           ]
@@ -2942,27 +2962,27 @@
         },
         {
           "week": 1783814400,
-          "total": 2273,
+          "total": 2270,
           "days": [
             261,
             342,
             361,
-            437,
-            339,
+            436,
+            338,
             253,
-            280
+            279
           ]
         },
         {
           "week": 1784419200,
-          "total": 2050,
+          "total": 2049,
           "days": [
             329,
             362,
             362,
             284,
             290,
-            215,
+            214,
             208
           ]
         },
@@ -2981,10 +3001,10 @@
         },
         {
           "week": 1785628800,
-          "total": 1657,
+          "total": 1655,
           "days": [
             241,
-            295,
+            293,
             276,
             254,
             263,
@@ -2994,36 +3014,36 @@
         },
         {
           "week": 1786233600,
-          "total": 1416,
+          "total": 1415,
           "days": [
             191,
             209,
             209,
             215,
-            240,
+            239,
             188,
             164
           ]
         },
         {
           "week": 1786838400,
-          "total": 7922,
+          "total": 7920,
           "days": [
             203,
             215,
             203,
             224,
             2415,
-            2395,
-            2267
+            2394,
+            2266
           ]
         },
         {
           "week": 1787443200,
-          "total": 5864,
+          "total": 5863,
           "days": [
             2054,
-            1349,
+            1348,
             910,
             546,
             405,
@@ -3033,7 +3053,7 @@
         },
         {
           "week": 1788048000,
-          "total": 1987,
+          "total": 1986,
           "days": [
             344,
             333,
@@ -3041,7 +3061,7 @@
             273,
             310,
             251,
-            215
+            214
           ]
         },
         {
@@ -3087,12 +3107,12 @@
           "week": 1790467200,
           "total": 1240,
           "days": [
-            195,
+            194,
             201,
             276,
             184,
             125,
-            136,
+            137,
             123
           ]
         },
@@ -3111,11 +3131,11 @@
         },
         {
           "week": 1791676800,
-          "total": 1183,
+          "total": 1181,
           "days": [
-            159,
+            158,
             207,
-            205,
+            204,
             193,
             165,
             129,
@@ -3124,27 +3144,27 @@
         },
         {
           "week": 1792281600,
-          "total": 1211,
+          "total": 1143,
           "days": [
             162,
             177,
-            212,
-            179,
+            174,
+            173,
             168,
-            190,
+            166,
             123
           ]
         },
         {
           "week": 1792886400,
-          "total": 1898,
+          "total": 1893,
           "days": [
-            149,
+            148,
             162,
             281,
-            157,
+            156,
             152,
-            608,
+            605,
             389
           ]
         },
@@ -3163,10 +3183,10 @@
         },
         {
           "week": 1794096000,
-          "total": 422,
+          "total": 1099,
           "days": [
-            422,
-            0,
+            460,
+            639,
             0,
             0,
             0,
@@ -3176,14 +3196,14 @@
         }
       ],
       "repoId": 965415649,
-      "stars": 134005,
-      "forks": 21223,
+      "stars": 134587,
+      "forks": 21303,
       "language": "Rust",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/openai/codex",
-      "collectedAt": "2026-11-09T06:47:44.940Z",
-      "historyCollectedAt": "2026-11-09T06:47:45.127Z"
+      "collectedAt": "2026-11-10T07:27:30.963Z",
+      "historyCollectedAt": "2026-11-10T07:27:31.186Z"
     },
     "openhands": {
       "repo": "OpenHands/OpenHands",
@@ -3472,6 +3492,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:45.567Z",
           "stars": 92994
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:31.728Z",
+          "stars": 93084
         }
       ],
       "history": [
@@ -3698,10 +3723,10 @@
         },
         {
           "week": 1782000000,
-          "total": 659,
+          "total": 660,
           "days": [
             95,
-            90,
+            91,
             122,
             97,
             100,
@@ -3854,13 +3879,13 @@
         },
         {
           "week": 1789257600,
-          "total": 913,
+          "total": 912,
           "days": [
             123,
             135,
             135,
             154,
-            153,
+            152,
             104,
             109
           ]
@@ -3919,11 +3944,11 @@
         },
         {
           "week": 1792281600,
-          "total": 690,
+          "total": 689,
           "days": [
             80,
             108,
-            114,
+            113,
             101,
             102,
             101,
@@ -3932,9 +3957,9 @@
         },
         {
           "week": 1792886400,
-          "total": 667,
+          "total": 666,
           "days": [
-            104,
+            103,
             99,
             102,
             99,
@@ -3945,10 +3970,10 @@
         },
         {
           "week": 1793491200,
-          "total": 603,
+          "total": 602,
           "days": [
             98,
-            81,
+            80,
             77,
             90,
             97,
@@ -3958,10 +3983,10 @@
         },
         {
           "week": 1794096000,
-          "total": 86,
+          "total": 183,
           "days": [
-            86,
-            0,
+            94,
+            89,
             0,
             0,
             0,
@@ -3971,15 +3996,15 @@
         }
       ],
       "repoId": 771302083,
-      "stars": 92994,
-      "forks": 12425,
+      "stars": 93084,
+      "forks": 12439,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/OpenHands/OpenHands",
       "website": "https://openhands.dev",
-      "collectedAt": "2026-11-09T06:47:45.567Z",
-      "historyCollectedAt": "2026-11-09T06:47:45.816Z"
+      "collectedAt": "2026-11-10T07:27:31.728Z",
+      "historyCollectedAt": "2026-11-10T07:27:31.871Z"
     },
     "ragflow": {
       "repo": "infiniflow/ragflow",
@@ -4268,6 +4293,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:46.237Z",
           "stars": 93804
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:32.356Z",
+          "stars": 93932
         }
       ],
       "history": [
@@ -4377,7 +4407,7 @@
         },
         {
           "week": 1776556800,
-          "total": 575,
+          "total": 574,
           "days": [
             73,
             107,
@@ -4385,7 +4415,7 @@
             98,
             90,
             58,
-            63
+            62
           ]
         },
         {
@@ -4403,11 +4433,11 @@
         },
         {
           "week": 1777766400,
-          "total": 682,
+          "total": 681,
           "days": [
             105,
             76,
-            94,
+            93,
             111,
             95,
             97,
@@ -4429,11 +4459,11 @@
         },
         {
           "week": 1778976000,
-          "total": 512,
+          "total": 511,
           "days": [
             66,
             96,
-            73,
+            72,
             89,
             89,
             55,
@@ -4455,13 +4485,13 @@
         },
         {
           "week": 1780185600,
-          "total": 525,
+          "total": 524,
           "days": [
             59,
             79,
             96,
             88,
-            85,
+            84,
             61,
             57
           ]
@@ -4494,14 +4524,14 @@
         },
         {
           "week": 1782000000,
-          "total": 525,
+          "total": 526,
           "days": [
             68,
             74,
             105,
             96,
             82,
-            58,
+            59,
             42
           ]
         },
@@ -4546,7 +4576,7 @@
         },
         {
           "week": 1784419200,
-          "total": 660,
+          "total": 659,
           "days": [
             78,
             97,
@@ -4554,7 +4584,7 @@
             103,
             121,
             108,
-            57
+            56
           ]
         },
         {
@@ -4754,10 +4784,10 @@
         },
         {
           "week": 1794096000,
-          "total": 62,
+          "total": 203,
           "days": [
-            62,
-            0,
+            67,
+            136,
             0,
             0,
             0,
@@ -4767,15 +4797,15 @@
         }
       ],
       "repoId": 730534580,
-      "stars": 93804,
-      "forks": 11267,
+      "stars": 93932,
+      "forks": 11286,
       "language": "Go",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/infiniflow/ragflow",
       "website": "https://ragflow.io",
-      "collectedAt": "2026-11-09T06:47:46.237Z",
-      "historyCollectedAt": "2026-11-09T06:47:46.367Z"
+      "collectedAt": "2026-11-10T07:27:32.356Z",
+      "historyCollectedAt": "2026-11-10T07:27:32.513Z"
     },
     "mem0": {
       "repo": "mem0ai/mem0",
@@ -5064,6 +5094,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:46.756Z",
           "stars": 68664
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:33.069Z",
+          "stars": 68730
         }
       ],
       "history": [
@@ -5173,14 +5208,14 @@
         },
         {
           "week": 1776556800,
-          "total": 620,
+          "total": 619,
           "days": [
             100,
             99,
             106,
             92,
             89,
-            72,
+            71,
             62
           ]
         },
@@ -5355,10 +5390,10 @@
         },
         {
           "week": 1785024000,
-          "total": 631,
+          "total": 630,
           "days": [
             105,
-            91,
+            90,
             104,
             99,
             101,
@@ -5550,10 +5585,10 @@
         },
         {
           "week": 1794096000,
-          "total": 71,
+          "total": 141,
           "days": [
-            71,
-            0,
+            76,
+            65,
             0,
             0,
             0,
@@ -5563,15 +5598,15 @@
         }
       ],
       "repoId": 656099147,
-      "stars": 68664,
-      "forks": 8168,
+      "stars": 68730,
+      "forks": 8178,
       "language": "Python",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/mem0ai/mem0",
       "website": "https://mem0.ai",
-      "collectedAt": "2026-11-09T06:47:46.756Z",
-      "historyCollectedAt": "2026-11-09T06:47:46.898Z"
+      "collectedAt": "2026-11-10T07:27:33.069Z",
+      "historyCollectedAt": "2026-11-10T07:27:33.250Z"
     },
     "ollama": {
       "repo": "ollama/ollama",
@@ -5860,6 +5895,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:47.256Z",
           "stars": 186408
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:33.647Z",
+          "stars": 186488
         }
       ],
       "history": [
@@ -5995,12 +6035,12 @@
         },
         {
           "week": 1777766400,
-          "total": 636,
+          "total": 637,
           "days": [
             86,
             79,
             103,
-            106,
+            107,
             90,
             90,
             82
@@ -6151,24 +6191,24 @@
         },
         {
           "week": 1785024000,
-          "total": 720,
+          "total": 719,
           "days": [
             84,
             117,
             111,
             112,
             119,
-            97,
+            96,
             80
           ]
         },
         {
           "week": 1785628800,
-          "total": 633,
+          "total": 632,
           "days": [
             113,
             96,
-            104,
+            103,
             85,
             86,
             79,
@@ -6190,9 +6230,9 @@
         },
         {
           "week": 1786838400,
-          "total": 700,
+          "total": 699,
           "days": [
-            135,
+            134,
             114,
             97,
             94,
@@ -6203,7 +6243,7 @@
         },
         {
           "week": 1787443200,
-          "total": 592,
+          "total": 591,
           "days": [
             75,
             73,
@@ -6211,7 +6251,7 @@
             94,
             84,
             87,
-            93
+            92
           ]
         },
         {
@@ -6255,12 +6295,12 @@
         },
         {
           "week": 1789862400,
-          "total": 547,
+          "total": 548,
           "days": [
             75,
             79,
             72,
-            76,
+            77,
             106,
             84,
             55
@@ -6307,22 +6347,22 @@
         },
         {
           "week": 1792281600,
-          "total": 1116,
+          "total": 1066,
           "days": [
             123,
             140,
-            201,
+            180,
             151,
             171,
             155,
-            175
+            146
           ]
         },
         {
           "week": 1792886400,
-          "total": 979,
+          "total": 977,
           "days": [
-            159,
+            157,
             159,
             147,
             119,
@@ -6333,23 +6373,23 @@
         },
         {
           "week": 1793491200,
-          "total": 952,
+          "total": 950,
           "days": [
-            144,
+            143,
             136,
             128,
             125,
             130,
-            145,
+            144,
             144
           ]
         },
         {
           "week": 1794096000,
-          "total": 112,
+          "total": 261,
           "days": [
-            112,
-            0,
+            115,
+            146,
             0,
             0,
             0,
@@ -6359,15 +6399,15 @@
         }
       ],
       "repoId": 658928958,
-      "stars": 186408,
-      "forks": 18974,
+      "stars": 186488,
+      "forks": 18988,
       "language": "Go",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/ollama/ollama",
       "website": "https://ollama.com",
-      "collectedAt": "2026-11-09T06:47:47.256Z",
-      "historyCollectedAt": "2026-11-09T06:47:47.405Z"
+      "collectedAt": "2026-11-10T07:27:33.647Z",
+      "historyCollectedAt": "2026-11-10T07:27:33.801Z"
     },
     "llama-cpp": {
       "repo": "ggml-org/llama.cpp",
@@ -6656,6 +6696,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:47.710Z",
           "stars": 133784
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:34.291Z",
+          "stars": 133875
         }
       ],
       "history": [
@@ -6820,21 +6865,21 @@
           "total": 2043,
           "days": [
             194,
-            497,
+            496,
             322,
             420,
             230,
-            203,
+            204,
             177
           ]
         },
         {
           "week": 1779580800,
-          "total": 1405,
+          "total": 1404,
           "days": [
             268,
             269,
-            210,
+            209,
             168,
             175,
             177,
@@ -6843,7 +6888,7 @@
         },
         {
           "week": 1780185600,
-          "total": 1236,
+          "total": 1235,
           "days": [
             183,
             165,
@@ -6851,7 +6896,7 @@
             166,
             183,
             210,
-            152
+            151
           ]
         },
         {
@@ -6973,14 +7018,14 @@
         },
         {
           "week": 1786233600,
-          "total": 990,
+          "total": 989,
           "days": [
             109,
             148,
             150,
             199,
             126,
-            128,
+            127,
             130
           ]
         },
@@ -7012,12 +7057,12 @@
         },
         {
           "week": 1788048000,
-          "total": 952,
+          "total": 951,
           "days": [
             151,
             151,
             138,
-            147,
+            146,
             150,
             108,
             107
@@ -7077,7 +7122,7 @@
         },
         {
           "week": 1791072000,
-          "total": 806,
+          "total": 805,
           "days": [
             87,
             114,
@@ -7085,14 +7130,14 @@
             119,
             117,
             123,
-            119
+            118
           ]
         },
         {
           "week": 1791676800,
-          "total": 846,
+          "total": 845,
           "days": [
-            119,
+            118,
             106,
             144,
             111,
@@ -7103,37 +7148,37 @@
         },
         {
           "week": 1792281600,
-          "total": 802,
+          "total": 799,
           "days": [
             116,
             114,
-            132,
-            113,
-            120,
+            131,
+            112,
+            119,
             110,
             97
           ]
         },
         {
           "week": 1792886400,
-          "total": 837,
+          "total": 836,
           "days": [
             125,
             121,
             116,
             130,
-            119,
+            118,
             110,
             116
           ]
         },
         {
           "week": 1793491200,
-          "total": 780,
+          "total": 778,
           "days": [
-            116,
+            115,
             123,
-            109,
+            108,
             110,
             123,
             93,
@@ -7142,10 +7187,10 @@
         },
         {
           "week": 1794096000,
-          "total": 119,
+          "total": 230,
           "days": [
-            119,
-            0,
+            125,
+            105,
             0,
             0,
             0,
@@ -7155,15 +7200,15 @@
         }
       ],
       "repoId": 612354784,
-      "stars": 133784,
-      "forks": 25277,
+      "stars": 133875,
+      "forks": 25319,
       "language": "C++",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/ggml-org/llama.cpp",
       "website": "https://llama.app",
-      "collectedAt": "2026-11-09T06:47:47.710Z",
-      "historyCollectedAt": "2026-11-09T06:47:47.847Z"
+      "collectedAt": "2026-11-10T07:27:34.291Z",
+      "historyCollectedAt": "2026-11-10T07:27:34.499Z"
     },
     "vllm": {
       "repo": "vllm-project/vllm",
@@ -7452,6 +7497,11 @@
           "date": "2026-11-09",
           "observedAt": "2026-11-09T06:47:48.241Z",
           "stars": 96582
+        },
+        {
+          "date": "2026-11-10",
+          "observedAt": "2026-11-10T07:27:34.932Z",
+          "stars": 96652
         }
       ],
       "history": [
@@ -7613,14 +7663,14 @@
         },
         {
           "week": 1778976000,
-          "total": 631,
+          "total": 632,
           "days": [
             97,
             107,
             104,
             96,
             81,
-            76,
+            77,
             70
           ]
         },
@@ -7769,14 +7819,14 @@
         },
         {
           "week": 1786233600,
-          "total": 626,
+          "total": 624,
           "days": [
             65,
             116,
             107,
             99,
-            101,
-            68,
+            100,
+            67,
             70
           ]
         },
@@ -7912,9 +7962,9 @@
         },
         {
           "week": 1792886400,
-          "total": 662,
+          "total": 661,
           "days": [
-            155,
+            154,
             115,
             87,
             92,
@@ -7925,23 +7975,23 @@
         },
         {
           "week": 1793491200,
-          "total": 571,
+          "total": 570,
           "days": [
             93,
             85,
             98,
             106,
-            74,
+            73,
             61,
             54
           ]
         },
         {
           "week": 1794096000,
-          "total": 46,
+          "total": 123,
           "days": [
-            46,
-            0,
+            49,
+            74,
             0,
             0,
             0,
@@ -7951,18 +8001,48 @@
         }
       ],
       "repoId": 599547518,
-      "stars": 96582,
-      "forks": 24573,
+      "stars": 96652,
+      "forks": 24620,
       "language": "Python",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/vllm-project/vllm",
       "website": "https://vllm.ai",
-      "collectedAt": "2026-11-09T06:47:48.241Z",
-      "historyCollectedAt": "2026-11-09T06:47:48.365Z"
+      "collectedAt": "2026-11-10T07:27:34.932Z",
+      "historyCollectedAt": "2026-11-10T07:27:35.059Z"
     }
   },
   "news": [
+    {
+      "id": "github-release-439963621",
+      "projectSlug": "openhands",
+      "title": "v1.38.0",
+      "summary": "1.38.0 (2026-11-10) What's Changed Features feat: edit executable plugin configuration in automation help by @ak684 in https://github.com/OpenHands/OpenHands/pull/19453 feat: display conversation budgets with semantic meter fills by @enyst …",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0",
+      "publishedAt": "2026-11-10T04:59:49Z",
+      "kind": "release",
+      "tag": "v1.38.0"
+    },
+    {
+      "id": "github-release-439467483",
+      "projectSlug": "ollama",
+      "title": "v0.40.16",
+      "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. sh ollama run ripple-preview What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - ollama launch claude …",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "publishedAt": "2026-11-09T18:21:19Z",
+      "kind": "release",
+      "tag": "v0.40.16"
+    },
+    {
+      "id": "github-release-438881447",
+      "projectSlug": "n8n",
+      "title": "n8n@2.46.7",
+      "summary": "2.46.7 (2026-11-09) Bug Fixes core: Limit resume attempts for waiting and queued executions (42862) (c7aa6aa)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.7",
+      "publishedAt": "2026-11-09T08:25:28Z",
+      "kind": "release",
+      "tag": "n8n@2.46.7"
+    },
     {
       "id": "github-release-436499677",
       "projectSlug": "openhands",
@@ -9326,6 +9406,96 @@
   ],
   "papers": [
     {
+      "id": "2611.12872",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "authors": "Haozhen Zhang, Bohan Liu, Jianzhu Bao, Qingyuan Liu, Haodong Yue, Xiao Li, Zi Pong Lim, Wenya Wang",
+      "publishedAt": "2026-11-09T18:57:00.000Z",
+      "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over com…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12872",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12872",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
+      "id": "2611.12865",
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "authors": "Xinjie Shen",
+      "publishedAt": "2026-11-09T18:52:20.000Z",
+      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--co…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12865",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12865",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
+      "id": "2611.12799",
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "authors": "Tingcheng Bian, Kangye Gong, Jinchang Luo, MingQuan Cheng, Feiran Liu, Ni Li, Xiaoling Xia, Haiwei Wang, Hui Li",
+      "publishedAt": "2026-11-09T18:07:42.000Z",
+      "summary": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12799",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12799",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
+      "id": "2611.12728",
+      "title": "Safe Reinforcement Learning for Multi-Turn Clinical Agents: When Dense Rewards Beat Outcome Rewards",
+      "authors": "Brendan P. Murphy, Agustina Saenz",
+      "publishedAt": "2026-11-09T17:14:40.000Z",
+      "summary": "Reinforcement learning with verifiable rewards is increasingly used to improve language model reasoning, yet its effects on sequential decision procedures remain poorly understood. We study this problem in clinical multi-turn agents that mu…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12728",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12728",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
+      "id": "2611.12705",
+      "title": "Multi-Agent Screening: What Agreement and Acceptance Cannot Tell You",
+      "authors": "Benjamin Chang, Dell Zhang",
+      "publishedAt": "2026-11-09T17:00:16.000Z",
+      "summary": "When AI agents screen items for a costly human assessor, as in agentic search, e-discovery and AI reviewing of papers, only what they pass gets judged. We show what each kind of evidence can establish about their errors, even with unlimited…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12705",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12705",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
+      "id": "2611.12557",
+      "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+      "authors": "Yuhang Chen, Jiheng Li, Jiale Wang, Zai Wang, Guangyue Liu",
+      "publishedAt": "2026-11-09T15:23:53.000Z",
+      "summary": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the gene…",
+      "category": "agents",
+      "kind": "research",
+      "url": "https://arxiv.org/abs/2611.12557",
+      "projectSlugs": [],
+      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
+      "relatedPaperIds": [],
+      "evidenceUrl": "https://arxiv.org/abs/2611.12557",
+      "relationLabel": "arXiv 검색 결과"
+    },
+    {
       "id": "2611.09892",
       "title": "On Agentic Manipulation Policies",
       "authors": "Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi, Fahad Islam, Xueting Li, Jean-Baptiste Regli, Kejia Ren, Petr Švec, David J. Yoon, Matthias Müller, Vladlen Koltun",
@@ -9683,96 +9853,6 @@
       "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
       "relatedPaperIds": [],
       "evidenceUrl": "https://arxiv.org/abs/2611.05179",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03126",
-      "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
-      "authors": "Xinlei Yu, Gen Li, Ji Zhao, Zhangquan Chen, Congcong Wang, Shuai Dong, Zelin Peng, Yuqi Xu, Hongrui Wu, Kaiwen Tuo, Cheng Yang, Kaituo Feng, Yifan Wu, Jiayi Zhang, Dongming Wu, Wenqi Shao, Jiaqi Wang, Xiangyu Yue",
-      "publishedAt": "2026-11-02T13:41:14.000Z",
-      "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing rec…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03126",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03126",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03121",
-      "title": "ComplianceAtlas: A Taxonomy-Driven Agentic AI Framework for Automated AI Act Gap Analysis and Remediation",
-      "authors": "Ilias Driouich, Hongliu Cao, Eoin Thomas, Yannick Devaux, Agnes Brodelle",
-      "publishedAt": "2026-11-02T13:37:32.000Z",
-      "summary": "Assessing regulatory compliance for high-risk AI systems requires systematic identification of technical gaps such as missing controls, in- adequate processes, or shallow evaluation of practices. Compliance officers typically admin- ister s…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03121",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03121",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03116",
-      "title": "From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents",
-      "authors": "Xueyang Feng, Xiaohe Bo, Xu Chen, Quanyu Dai, Feng Wen",
-      "publishedAt": "2026-11-02T13:32:59.000Z",
-      "summary": "Large language models (LLMs) are driving autonomous agents toward real-world environments, with the Web emerging as one of the most representative interaction scenarios. However, training Web agents with naive exploration remains challengin…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03116",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03116",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03100",
-      "title": "LUCA: A Synthetic World for Experimental Reasoning",
-      "authors": "Anna Gogleva, Thomas Charman, Martin Balla, Karl Gemayel",
-      "publishedAt": "2026-11-02T13:17:36.000Z",
-      "summary": "An experimental agent can succeed for the wrong reasons. Evaluations, however, often focus on the outcome, not the experiments, evidence, and inferences that produced it. We introduce LUCA, a configurable synthetic world for evaluating this…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03100",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03100",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03092",
-      "title": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
-      "authors": "Zheng Wu, Xinbei Ma, Yao Yao, Zhaoyuan Huang, Haowen Hu, Yijie Lu, Taolei Wang, Yifei Yang, Wuyue Xiong, Pengzhou Cheng, Zhuosheng Zhang",
-      "publishedAt": "2026-11-02T13:11:57.000Z",
-      "summary": "Personal AI agents are increasingly capable of handling long-horizon tasks across applications, yet users often need to invest substantial effort in specifying goals, resolving ambiguity, and verifying outcomes. We argue that progress shoul…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03092",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03092",
-      "relationLabel": "arXiv 검색 결과"
-    },
-    {
-      "id": "2611.03066",
-      "title": "Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services",
-      "authors": "Haoyi Xiong, Yi Liu, Jiang Bian, Peng Diao, Bin Zhu, Tingting Hu, Yi Wang, Sumi Helal",
-      "publishedAt": "2026-11-02T12:54:14.000Z",
-      "summary": "Large language model applications are increasingly being organized as tool-using and multi-agent workflows rather than as isolated chat interfaces. This perspective paper examines the architectural problem that follows from that shift: agen…",
-      "category": "agents",
-      "kind": "research",
-      "url": "https://arxiv.org/abs/2611.03066",
-      "projectSlugs": [],
-      "reason": "arXiv의 cs.AI 분야에서 agent 키워드로 검색한 최신 논문입니다. 설명은 원문 초록의 일부입니다.",
-      "relatedPaperIds": [],
-      "evidenceUrl": "https://arxiv.org/abs/2611.03066",
       "relationLabel": "arXiv 검색 결과"
     }
   ],
