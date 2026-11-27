@@ -1,6 +1,6 @@
 {
-  "collectedAt": "2026-11-26T08:32:25.731Z",
-  "attemptedAt": "2026-11-26T08:32:16.248Z",
+  "collectedAt": "2026-11-27T08:45:03.042Z",
+  "attemptedAt": "2026-11-27T08:44:54.121Z",
   "projects": {
     "langgraph": {
       "repo": "langchain-ai/langgraph",
@@ -374,6 +374,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:16.637Z",
           "stars": 45436
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:54.498Z",
+          "stars": 45498
         }
       ],
       "history": [
@@ -535,13 +540,13 @@
         },
         {
           "week": 1778976000,
-          "total": 605,
+          "total": 604,
           "days": [
             84,
             98,
             90,
             100,
-            89,
+            88,
             83,
             61
           ]
@@ -691,11 +696,11 @@
         },
         {
           "week": 1786233600,
-          "total": 518,
+          "total": 517,
           "days": [
             75,
             78,
-            87,
+            86,
             80,
             73,
             58,
@@ -821,26 +826,26 @@
         },
         {
           "week": 1792281600,
-          "total": 441,
+          "total": 440,
           "days": [
             58,
             69,
             59,
             87,
-            66,
+            65,
             49,
             53
           ]
         },
         {
           "week": 1792886400,
-          "total": 421,
+          "total": 420,
           "days": [
             56,
             65,
             71,
             50,
-            69,
+            68,
             62,
             48
           ]
@@ -873,41 +878,41 @@
         },
         {
           "week": 1794700800,
-          "total": 297,
+          "total": 296,
           "days": [
             39,
             48,
             48,
             50,
-            36,
+            35,
             47,
             29
           ]
         },
         {
           "week": 1795305600,
-          "total": 206,
+          "total": 274,
           "days": [
             51,
             50,
             51,
             54,
-            0,
-            0,
+            67,
+            1,
             0
           ]
         }
       ],
       "repoId": 676672661,
-      "stars": 45436,
-      "forks": 7865,
+      "stars": 45498,
+      "forks": 7877,
       "language": "Python",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/langchain-ai/langgraph",
       "website": "https://docs.langchain.com/oss/python/langgraph/",
-      "collectedAt": "2026-11-26T08:32:16.637Z",
-      "historyCollectedAt": "2026-11-26T08:32:16.808Z"
+      "collectedAt": "2026-11-27T08:44:54.498Z",
+      "historyCollectedAt": "2026-11-27T08:44:54.626Z"
     },
     "dify": {
       "repo": "langgenius/dify",
@@ -1281,6 +1286,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:17.378Z",
           "stars": 161932
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:55.133Z",
+          "stars": 161988
         }
       ],
       "history": [
@@ -1546,9 +1556,9 @@
         },
         {
           "week": 1783814400,
-          "total": 795,
+          "total": 794,
           "days": [
-            105,
+            104,
             120,
             124,
             140,
@@ -1559,10 +1569,10 @@
         },
         {
           "week": 1784419200,
-          "total": 1032,
+          "total": 1033,
           "days": [
             133,
-            155,
+            156,
             160,
             169,
             176,
@@ -1598,14 +1608,14 @@
         },
         {
           "week": 1786233600,
-          "total": 793,
+          "total": 792,
           "days": [
             101,
             125,
             123,
             126,
             130,
-            82,
+            81,
             106
           ]
         },
@@ -1650,13 +1660,13 @@
         },
         {
           "week": 1788652800,
-          "total": 1042,
+          "total": 1041,
           "days": [
             122,
             245,
             219,
             160,
-            112,
+            111,
             99,
             85
           ]
@@ -1793,28 +1803,28 @@
         },
         {
           "week": 1795305600,
-          "total": 327,
+          "total": 393,
           "days": [
             79,
             100,
             77,
             69,
-            2,
-            0,
+            65,
+            3,
             0
           ]
         }
       ],
       "repoId": 626805178,
-      "stars": 161932,
-      "forks": 25561,
+      "stars": 161988,
+      "forks": 25565,
       "language": "Python",
       "license": "NOASSERTION",
       "archived": false,
       "url": "https://github.com/langgenius/dify",
       "website": "https://dify.ai",
-      "collectedAt": "2026-11-26T08:32:17.378Z",
-      "historyCollectedAt": "2026-11-26T08:32:17.525Z"
+      "collectedAt": "2026-11-27T08:44:55.133Z",
+      "historyCollectedAt": "2026-11-27T08:44:55.281Z"
     },
     "n8n": {
       "repo": "n8n-io/n8n",
@@ -2188,6 +2198,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:17.975Z",
           "stars": 212181
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:55.656Z",
+          "stars": 212374
         }
       ],
       "history": [
@@ -2466,27 +2481,27 @@
         },
         {
           "week": 1784419200,
-          "total": 1173,
+          "total": 1172,
           "days": [
             139,
             182,
             158,
             179,
             159,
-            181,
+            180,
             175
           ]
         },
         {
           "week": 1785024000,
-          "total": 1115,
+          "total": 1114,
           "days": [
             137,
             187,
             189,
             188,
             182,
-            119,
+            118,
             113
           ]
         },
@@ -2583,23 +2598,23 @@
         },
         {
           "week": 1789862400,
-          "total": 747,
+          "total": 745,
           "days": [
             111,
             154,
             109,
-            95,
+            94,
             85,
             113,
-            80
+            79
           ]
         },
         {
           "week": 1790467200,
-          "total": 655,
+          "total": 654,
           "days": [
             93,
-            99,
+            98,
             102,
             92,
             85,
@@ -2648,14 +2663,14 @@
         },
         {
           "week": 1792886400,
-          "total": 861,
+          "total": 860,
           "days": [
             110,
             124,
             159,
             152,
             135,
-            105,
+            104,
             76
           ]
         },
@@ -2700,28 +2715,28 @@
         },
         {
           "week": 1795305600,
-          "total": 600,
+          "total": 812,
           "days": [
             126,
             172,
             186,
-            115,
-            1,
-            0,
+            112,
+            213,
+            3,
             0
           ]
         }
       ],
       "repoId": 193215554,
-      "stars": 212181,
-      "forks": 61670,
+      "stars": 212374,
+      "forks": 61687,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "archived": false,
       "url": "https://github.com/n8n-io/n8n",
       "website": "https://n8n.io",
-      "collectedAt": "2026-11-26T08:32:17.975Z",
-      "historyCollectedAt": "2026-11-26T08:32:18.104Z"
+      "collectedAt": "2026-11-27T08:44:55.656Z",
+      "historyCollectedAt": "2026-11-27T08:44:55.794Z"
     },
     "codex": {
       "repo": "openai/codex",
@@ -3095,6 +3110,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:18.534Z",
           "stars": 136508
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:56.160Z",
+          "stars": 136623
         }
       ],
       "history": [
@@ -3269,7 +3289,7 @@
         },
         {
           "week": 1779580800,
-          "total": 2200,
+          "total": 2199,
           "days": [
             383,
             348,
@@ -3277,18 +3297,18 @@
             334,
             303,
             247,
-            187
+            186
           ]
         },
         {
           "week": 1780185600,
-          "total": 2041,
+          "total": 2040,
           "days": [
             266,
             332,
             346,
             327,
-            336,
+            335,
             240,
             194
           ]
@@ -3308,12 +3328,12 @@
         },
         {
           "week": 1781395200,
-          "total": 1495,
+          "total": 1496,
           "days": [
             198,
             257,
             252,
-            262,
+            263,
             223,
             163,
             140
@@ -3373,11 +3393,11 @@
         },
         {
           "week": 1784419200,
-          "total": 2044,
+          "total": 2043,
           "days": [
             329,
             362,
-            359,
+            358,
             284,
             288,
             214,
@@ -3425,10 +3445,10 @@
         },
         {
           "week": 1786838400,
-          "total": 7899,
+          "total": 7898,
           "days": [
             202,
-            212,
+            211,
             203,
             223,
             2409,
@@ -3438,14 +3458,14 @@
         },
         {
           "week": 1787443200,
-          "total": 5848,
+          "total": 5847,
           "days": [
             2048,
             1345,
             909,
             544,
             403,
-            338,
+            337,
             261
           ]
         },
@@ -3466,8 +3486,8 @@
           "week": 1788652800,
           "total": 1893,
           "days": [
-            227,
-            294,
+            226,
+            295,
             307,
             307,
             256,
@@ -3477,12 +3497,12 @@
         },
         {
           "week": 1789257600,
-          "total": 1730,
+          "total": 1729,
           "days": [
             242,
             285,
             277,
-            311,
+            310,
             225,
             204,
             186
@@ -3542,10 +3562,10 @@
         },
         {
           "week": 1792281600,
-          "total": 1131,
+          "total": 1132,
           "days": [
             159,
-            175,
+            176,
             174,
             172,
             166,
@@ -3555,11 +3575,11 @@
         },
         {
           "week": 1792886400,
-          "total": 1863,
+          "total": 1861,
           "days": [
             147,
-            162,
-            257,
+            161,
+            256,
             156,
             151,
             603,
@@ -3607,27 +3627,27 @@
         },
         {
           "week": 1795305600,
-          "total": 491,
+          "total": 615,
           "days": [
-            109,
+            108,
             126,
             117,
             136,
-            3,
-            0,
+            123,
+            5,
             0
           ]
         }
       ],
       "repoId": 965415649,
-      "stars": 136508,
-      "forks": 21640,
+      "stars": 136623,
+      "forks": 21654,
       "language": "Rust",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/openai/codex",
-      "collectedAt": "2026-11-26T08:32:18.534Z",
-      "historyCollectedAt": "2026-11-26T08:32:18.705Z"
+      "collectedAt": "2026-11-27T08:44:56.160Z",
+      "historyCollectedAt": "2026-11-27T08:44:56.416Z"
     },
     "openhands": {
       "repo": "OpenHands/OpenHands",
@@ -4001,6 +4021,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:19.329Z",
           "stars": 94371
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:56.920Z",
+          "stars": 94439
         }
       ],
       "history": [
@@ -4214,12 +4239,12 @@
         },
         {
           "week": 1781395200,
-          "total": 922,
+          "total": 921,
           "days": [
             169,
             158,
             169,
-            144,
+            143,
             101,
             105,
             76
@@ -4344,13 +4369,13 @@
         },
         {
           "week": 1787443200,
-          "total": 804,
+          "total": 803,
           "days": [
             87,
             120,
             116,
             109,
-            136,
+            135,
             135,
             101
           ]
@@ -4409,9 +4434,9 @@
         },
         {
           "week": 1790467200,
-          "total": 739,
+          "total": 738,
           "days": [
-            92,
+            91,
             121,
             134,
             111,
@@ -4448,12 +4473,12 @@
         },
         {
           "week": 1792281600,
-          "total": 686,
+          "total": 685,
           "days": [
             79,
             108,
             113,
-            101,
+            100,
             102,
             100,
             83
@@ -4487,14 +4512,14 @@
         },
         {
           "week": 1794096000,
-          "total": 622,
+          "total": 621,
           "days": [
             94,
             88,
             101,
             116,
             95,
-            76,
+            75,
             52
           ]
         },
@@ -4513,28 +4538,28 @@
         },
         {
           "week": 1795305600,
-          "total": 400,
+          "total": 475,
           "days": [
             137,
             87,
             92,
             80,
+            75,
             4,
-            0,
             0
           ]
         }
       ],
       "repoId": 771302083,
-      "stars": 94371,
-      "forks": 12651,
+      "stars": 94439,
+      "forks": 12662,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/OpenHands/OpenHands",
       "website": "https://openhands.dev",
-      "collectedAt": "2026-11-26T08:32:19.329Z",
-      "historyCollectedAt": "2026-11-26T08:32:19.477Z"
+      "collectedAt": "2026-11-27T08:44:56.920Z",
+      "historyCollectedAt": "2026-11-27T08:44:57.108Z"
     },
     "ragflow": {
       "repo": "infiniflow/ragflow",
@@ -4908,6 +4933,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:19.878Z",
           "stars": 94744
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:57.485Z",
+          "stars": 94812
         }
       ],
       "history": [
@@ -5108,9 +5138,9 @@
         },
         {
           "week": 1780790400,
-          "total": 636,
+          "total": 635,
           "days": [
-            97,
+            96,
             97,
             94,
             88,
@@ -5277,10 +5307,10 @@
         },
         {
           "week": 1788652800,
-          "total": 530,
+          "total": 531,
           "days": [
             69,
-            75,
+            76,
             116,
             83,
             80,
@@ -5394,10 +5424,10 @@
         },
         {
           "week": 1794096000,
-          "total": 474,
+          "total": 473,
           "days": [
             67,
-            139,
+            138,
             71,
             76,
             44,
@@ -5420,28 +5450,28 @@
         },
         {
           "week": 1795305600,
-          "total": 243,
+          "total": 314,
           "days": [
             54,
             55,
             58,
             73,
-            3,
-            0,
+            69,
+            5,
             0
           ]
         }
       ],
       "repoId": 730534580,
-      "stars": 94744,
-      "forks": 11407,
+      "stars": 94812,
+      "forks": 11420,
       "language": "Go",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/infiniflow/ragflow",
       "website": "https://ragflow.io",
-      "collectedAt": "2026-11-26T08:32:19.878Z",
-      "historyCollectedAt": "2026-11-26T08:32:20.014Z"
+      "collectedAt": "2026-11-27T08:44:57.485Z",
+      "historyCollectedAt": "2026-11-27T08:44:57.658Z"
     },
     "mem0": {
       "repo": "mem0ai/mem0",
@@ -5815,6 +5845,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:20.440Z",
           "stars": 69492
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:58.085Z",
+          "stars": 69528
         }
       ],
       "history": [
@@ -6093,13 +6128,13 @@
         },
         {
           "week": 1784419200,
-          "total": 569,
+          "total": 568,
           "days": [
             114,
             91,
             79,
             87,
-            82,
+            81,
             66,
             50
           ]
@@ -6184,10 +6219,10 @@
         },
         {
           "week": 1788652800,
-          "total": 471,
+          "total": 472,
           "days": [
             57,
-            67,
+            68,
             85,
             77,
             71,
@@ -6314,7 +6349,7 @@
         },
         {
           "week": 1794700800,
-          "total": 363,
+          "total": 362,
           "days": [
             47,
             58,
@@ -6322,33 +6357,33 @@
             63,
             47,
             35,
-            35
+            34
           ]
         },
         {
           "week": 1795305600,
-          "total": 184,
+          "total": 220,
           "days": [
             43,
             54,
             41,
             46,
-            0,
-            0,
+            35,
+            1,
             0
           ]
         }
       ],
       "repoId": 656099147,
-      "stars": 69492,
-      "forks": 8271,
+      "stars": 69528,
+      "forks": 8283,
       "language": "Python",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/mem0ai/mem0",
       "website": "https://mem0.ai",
-      "collectedAt": "2026-11-26T08:32:20.440Z",
-      "historyCollectedAt": "2026-11-26T08:32:20.592Z"
+      "collectedAt": "2026-11-27T08:44:58.085Z",
+      "historyCollectedAt": "2026-11-27T08:44:58.204Z"
     },
     "ollama": {
       "repo": "ollama/ollama",
@@ -6722,6 +6757,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:20.929Z",
           "stars": 188176
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:58.560Z",
+          "stars": 188279
         }
       ],
       "history": [
@@ -6870,14 +6910,14 @@
         },
         {
           "week": 1778371200,
-          "total": 567,
+          "total": 566,
           "days": [
             78,
             79,
             73,
             82,
             89,
-            75,
+            74,
             91
           ]
         },
@@ -6935,10 +6975,10 @@
         },
         {
           "week": 1781395200,
-          "total": 626,
+          "total": 625,
           "days": [
             111,
-            102,
+            101,
             92,
             102,
             73,
@@ -7013,7 +7053,7 @@
         },
         {
           "week": 1785024000,
-          "total": 720,
+          "total": 719,
           "days": [
             84,
             118,
@@ -7021,7 +7061,7 @@
             112,
             119,
             96,
-            80
+            79
           ]
         },
         {
@@ -7091,10 +7131,10 @@
         },
         {
           "week": 1788652800,
-          "total": 575,
+          "total": 574,
           "days": [
             89,
-            110,
+            109,
             60,
             72,
             95,
@@ -7130,12 +7170,12 @@
         },
         {
           "week": 1790467200,
-          "total": 452,
+          "total": 451,
           "days": [
             54,
             77,
             69,
-            57,
+            56,
             58,
             65,
             72
@@ -7169,13 +7209,13 @@
         },
         {
           "week": 1792281600,
-          "total": 1059,
+          "total": 1058,
           "days": [
             123,
             138,
             179,
             150,
-            171,
+            170,
             155,
             143
           ]
@@ -7234,28 +7274,28 @@
         },
         {
           "week": 1795305600,
-          "total": 514,
+          "total": 629,
           "days": [
             116,
             127,
             145,
-            122,
-            4,
-            0,
+            121,
+            117,
+            3,
             0
           ]
         }
       ],
       "repoId": 658928958,
-      "stars": 188176,
-      "forks": 19211,
+      "stars": 188279,
+      "forks": 19225,
       "language": "Go",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/ollama/ollama",
       "website": "https://ollama.com",
-      "collectedAt": "2026-11-26T08:32:20.929Z",
-      "historyCollectedAt": "2026-11-26T08:32:21.078Z"
+      "collectedAt": "2026-11-27T08:44:58.560Z",
+      "historyCollectedAt": "2026-11-27T08:44:58.677Z"
     },
     "llama-cpp": {
       "repo": "ggml-org/llama.cpp",
@@ -7629,6 +7669,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:21.502Z",
           "stars": 136326
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:59.028Z",
+          "stars": 136465
         }
       ],
       "history": [
@@ -7790,12 +7835,12 @@
         },
         {
           "week": 1778976000,
-          "total": 2041,
+          "total": 2039,
           "days": [
             194,
-            495,
+            494,
             322,
-            419,
+            418,
             230,
             204,
             177
@@ -7907,13 +7952,13 @@
         },
         {
           "week": 1784419200,
-          "total": 778,
+          "total": 777,
           "days": [
             121,
             129,
             118,
             112,
-            118,
+            117,
             98,
             82
           ]
@@ -7946,12 +7991,12 @@
         },
         {
           "week": 1786233600,
-          "total": 988,
+          "total": 987,
           "days": [
             109,
             148,
             150,
-            199,
+            198,
             126,
             126,
             130
@@ -8037,9 +8082,9 @@
         },
         {
           "week": 1790467200,
-          "total": 692,
+          "total": 691,
           "days": [
-            116,
+            115,
             106,
             104,
             104,
@@ -8063,7 +8108,7 @@
         },
         {
           "week": 1791676800,
-          "total": 835,
+          "total": 834,
           "days": [
             118,
             106,
@@ -8071,7 +8116,7 @@
             111,
             133,
             122,
-            109
+            108
           ]
         },
         {
@@ -8115,54 +8160,54 @@
         },
         {
           "week": 1794096000,
-          "total": 1463,
+          "total": 1459,
           "days": [
             124,
             111,
             142,
-            121,
-            544,
-            239,
-            182
+            120,
+            543,
+            238,
+            181
           ]
         },
         {
           "week": 1794700800,
-          "total": 865,
+          "total": 864,
           "days": [
             132,
             123,
             152,
             113,
             114,
-            104,
+            103,
             127
           ]
         },
         {
           "week": 1795305600,
-          "total": 535,
+          "total": 687,
           "days": [
             159,
             120,
             114,
             139,
-            3,
-            0,
+            146,
+            9,
             0
           ]
         }
       ],
       "repoId": 612354784,
-      "stars": 136326,
-      "forks": 26103,
+      "stars": 136465,
+      "forks": 26159,
       "language": "C++",
       "license": "MIT",
       "archived": false,
       "url": "https://github.com/ggml-org/llama.cpp",
       "website": "https://llama.app",
-      "collectedAt": "2026-11-26T08:32:21.502Z",
-      "historyCollectedAt": "2026-11-26T08:32:21.677Z"
+      "collectedAt": "2026-11-27T08:44:59.028Z",
+      "historyCollectedAt": "2026-11-27T08:44:59.150Z"
     },
     "vllm": {
       "repo": "vllm-project/vllm",
@@ -8536,6 +8581,11 @@
           "date": "2026-11-26",
           "observedAt": "2026-11-26T08:32:22.034Z",
           "stars": 97600
+        },
+        {
+          "date": "2026-11-27",
+          "observedAt": "2026-11-27T08:44:59.490Z",
+          "stars": 97677
         }
       ],
       "history": [
@@ -8775,13 +8825,13 @@
         },
         {
           "week": 1782604800,
-          "total": 803,
+          "total": 802,
           "days": [
             130,
             138,
             90,
             146,
-            122,
+            121,
             88,
             89
           ]
@@ -8983,13 +9033,13 @@
         },
         {
           "week": 1792281600,
-          "total": 1412,
+          "total": 1411,
           "days": [
             82,
             90,
             390,
             457,
-            184,
+            183,
             83,
             126
           ]
@@ -9048,31 +9098,51 @@
         },
         {
           "week": 1795305600,
-          "total": 291,
+          "total": 372,
           "days": [
             62,
             76,
             76,
             74,
-            3,
-            0,
+            82,
+            2,
             0
           ]
         }
       ],
       "repoId": 599547518,
-      "stars": 97600,
-      "forks": 25315,
+      "stars": 97677,
+      "forks": 25359,
       "language": "Python",
       "license": "Apache-2.0",
       "archived": false,
       "url": "https://github.com/vllm-project/vllm",
       "website": "https://vllm.ai",
-      "collectedAt": "2026-11-26T08:32:22.034Z",
-      "historyCollectedAt": "2026-11-26T08:32:22.178Z"
+      "collectedAt": "2026-11-27T08:44:59.490Z",
+      "historyCollectedAt": "2026-11-27T08:44:59.651Z"
     }
   },
   "news": [
+    {
+      "id": "github-release-460322893",
+      "projectSlug": "n8n",
+      "title": "n8n@2.49.8",
+      "summary": "2.49.8 (2026-11-27)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.8",
+      "publishedAt": "2026-11-27T08:18:25Z",
+      "kind": "release",
+      "tag": "n8n@2.49.8"
+    },
+    {
+      "id": "github-release-459181980",
+      "projectSlug": "llama-cpp",
+      "title": "v1.1.0",
+      "summary": "Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old llamabatch API in favour…",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "publishedAt": "2026-11-26T09:16:47Z",
+      "kind": "release",
+      "tag": "v1.1.0"
+    },
     {
       "id": "github-release-459077598",
       "projectSlug": "n8n",
